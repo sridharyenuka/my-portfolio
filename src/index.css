@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .navbar-nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+} */
+.round-container {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  
+
+}
+.circle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.achievements-container{
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+.achievements{
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(24, 110, 110);
+  height: 200px;
+  width: 600px;
+  color: aliceblue;
+  border-radius: 1rem;
+}
+.img-thumbnail{
+  height: 200px;
+  width: 200px;
+}
+.profiles{
+  display: flex;
+  flex-direction: row ;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px  ;
+  gap:40px;
+  background: #8f4848;
+  height: 400px;
+  width: 600px;
+  border-radius: 1rem;
+}
+.leetcode img{
+  height: 200px;
+  width: 200px;
+  /* background-color: aqua; */
+}
+.codechef img{
+  height: 200px;
+  width: 200px;
+  /* background-color: rgb(7, 12, 0); */
+  border: 10px soild green;
+}
+.profiles-cont{
+  display: flex;
+  flex-direction: row ;
+  align-items: center;
+  justify-content: center;
+  
 }
