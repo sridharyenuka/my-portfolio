@@ -1,4 +1,4 @@
-import { nav } from 'framer-motion/client'
+
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { X, Menu } from 'lucide-react'
@@ -24,7 +24,7 @@ const Nav = () => {
   }
   return (
     <>
-      <nav className='flex w-1/3 justify-end '>
+      <nav className='flex w-1/2 justify-end '>
         <div className='w-full hidden md:flex justify-between'>
           <NavLinks />
         </div>
